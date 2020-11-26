@@ -33,6 +33,7 @@ namespace apprenant
             this.ajouterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.afficherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.afficherAvecSpecialitéToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,6 +43,7 @@ namespace apprenant
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ajouterToolStripMenuItem,
             this.afficherToolStripMenuItem,
+            this.afficherAvecSpecialitéToolStripMenuItem,
             this.modifierToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -70,6 +72,13 @@ namespace apprenant
             this.modifierToolStripMenuItem.Text = "modifier";
             this.modifierToolStripMenuItem.Click += new System.EventHandler(this.modifierToolStripMenuItem_Click);
             // 
+            // afficherAvecSpecialitéToolStripMenuItem
+            // 
+            this.afficherAvecSpecialitéToolStripMenuItem.Name = "afficherAvecSpecialitéToolStripMenuItem";
+            this.afficherAvecSpecialitéToolStripMenuItem.Size = new System.Drawing.Size(174, 24);
+            this.afficherAvecSpecialitéToolStripMenuItem.Text = "afficher avec specialité";
+            this.afficherAvecSpecialitéToolStripMenuItem.Click += new System.EventHandler(this.afficherAvecSpecialitéToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -96,6 +105,7 @@ namespace apprenant
         private System.Windows.Forms.ToolStripMenuItem ajouterToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem afficherToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem modifierToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem afficherAvecSpecialitéToolStripMenuItem;
     }
 }
 

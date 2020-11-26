@@ -11,3 +11,4 @@ C:\Users\jamal eddine noman\source\repos\apprenant\apprenant\obj\Debug\apprenant
 C:\Users\jamal eddine noman\source\repos\apprenant\apprenant\obj\Debug\apprenant.csproj.CoreCompileInputs.cache
 C:\Users\jamal eddine noman\source\repos\apprenant\apprenant\obj\Debug\apprenant.exe
 C:\Users\jamal eddine noman\source\repos\apprenant\apprenant\obj\Debug\apprenant.pdb
+C:\Users\jamal eddine noman\source\repos\apprenant\apprenant\obj\Debug\apprenant.Afficher___specialite.resources

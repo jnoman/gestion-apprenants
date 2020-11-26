@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Afficher - specialite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Afficher - specialite.Designer.cs">
+      <DependentUpon>Afficher - specialite.cs</DependentUpon>
+    </Compile>
     <Compile Include="Afficher.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Afficher - specialite.resx">
+      <DependentUpon>Afficher - specialite.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Afficher.resx">
       <DependentUpon>Afficher.cs</DependentUpon>
     </EmbeddedResource>

@@ -45,5 +45,13 @@ namespace apprenant
         {
             ajouterToolStripMenuItem_Click(sender, e);
         }
+
+        private void afficherAvecSpecialitéToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Afficher___specialite f = new Afficher___specialite();
+            f.Show();
+            f.MdiParent = this;
+            f.Location = new Point(0, 0);
+        }
     }
 }

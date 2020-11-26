@@ -299,7 +299,7 @@ namespace apprenant
                 cnx.open_connection();
                 SqlCommand cmd = new SqlCommand("update studentinfo set nom='" + txt_nom.Text + "',prenom='" + txt_prenom.Text + "',addrese='" +
                     txt_addrese.Text + "',email='" + txt_mail.Text + "',pays='" + combo_pays.Text + "',ville='" + combo_ville.Text + "'," +
-                    "specilate='" + combo_specialite.Text + "',tele='" + txt_tele.Text + "' where id=" + combo_id.Text, Connection.con);
+                    "specialite='" + combo_specialite.Text + "',tele='" + txt_tele.Text + "' where id=" + combo_id.Text, Connection.con);
                 cmd.ExecuteNonQuery();
                 cnx.close_connection();
                 MessageBox.Show("L'apprenant a bien modifier");

@@ -69,7 +69,7 @@ namespace apprenant
             {
                 Connection cnx = new Connection();
                 cnx.open_connection();
-                SqlCommand cmd = new SqlCommand("insert into studentinfo(nom,prenom,addrese,email,pays,ville,specilate,tele)" +
+                SqlCommand cmd = new SqlCommand("insert into studentinfo(nom,prenom,addrese,email,pays,ville,specialite,tele)" +
                     "values('"+txt_nom.Text+ "','" + txt_prenom.Text + "','" + txt_addrese.Text + "','" + txt_mail.Text + "','" +
                     combo_pays.Text + "','" + combo_ville.Text + "','" + combo_specialité.Text + "','" + txt_tele.Text + "')", Connection.con);
                 cmd.ExecuteNonQuery();
